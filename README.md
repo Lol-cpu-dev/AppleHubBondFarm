@@ -28,7 +28,7 @@ if not game.CoreGui:FindFirstChild("BondFarm") then
     title.Position = UDim2.new(0.5, 0, 0.1, 0)
     title.AnchorPoint = Vector2.new(0.5, 0)
     title.BackgroundTransparency = 1
-    title.Text = "Apple Hub Bond Farm V1"
+    title.Text = "Apple Hub Bond Farm V1 🍎"
     title.TextColor3 = Color3.new(1, 1, 1)
     title.TextScaled = true
     title.Font = Enum.Font.SourceSansBold
