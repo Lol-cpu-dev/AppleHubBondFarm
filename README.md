@@ -4,7 +4,7 @@ repeat task.wait() until game.Players.LocalPlayer.Character and game.Players.Loc
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EndDecision"):FireServer(false)
 
 if not game.CoreGui:FindFirstChild("BondFarm") then
-    local gui = Instance.new("ScreenGui", game.CoreGui)
+    local gui = Instance.new("ScreenGui", game.CoreGui) 
     gui.Name = "BondFarm"
     gui.ResetOnSpawn = false
     gui.IgnoreGuiInset = true
