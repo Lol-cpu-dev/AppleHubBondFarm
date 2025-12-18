@@ -6,7 +6,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("EndDe
 if not game.CoreGui:FindFirstChild("BondFarm") then
     local gui = Instance.new("ScreenGui", game.CoreGui) 
     gui.Name = "BondFarm"
-    gui.ResetOnSpawn = false
+    gui.ResetOnSpawn = false 
     gui.IgnoreGuiInset = true
 
     local black = Instance.new("Frame", gui)
